@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link to='/' className="flex items-center gap-2" onClick={()=> {setActive(""); window.scrollTo(0, 0);}}>
           <img src={logo} alt="logo" className="w-9 h-9 object-contain"/>
-          <p className="text-white text-[18px] font-bold cursor-pointer">Code<span className="sm:block hidden">withKoi</span></p>
+          <p className="text-white text-[18px] font-bold flex cursor-pointer">Code<span className="sm:block hidden">withKoi</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link)=>(
@@ -34,7 +34,11 @@ const Navbar = () => {
           {navLinks.map((link)=>(
             <li key={link.id} className={`${active === link.title ?
              'text-white': 'text-secondary'}
-              font-poppins font-medium cursor-pointer text-[16px]`} onClick={()=> setActive(link.title)}>
+              font-poppins font-medium cursor-pointer text-[16px]`} 
+              onClick={()=> {
+                setToggle(!toggle);
+                setActive(link.title);
+              }}>
               <a href={`#${link.id}`}>{link.title}</a></li>
           ))}
 
