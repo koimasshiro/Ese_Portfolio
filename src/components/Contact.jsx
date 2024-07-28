@@ -20,11 +20,39 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) =>{
-    
+    const {name, value} = e.target;
+    setForm({...form, [name]: value})
+
   };
 
   const handleSubmit = (e) =>{
+    e.preventDefault();
+    setLoading(true);
 
+    emailjs.send(
+      "serviceId", "TemplateId", 
+    {
+      from_name: form.name,
+      to_name: "Ese",
+      from_email: form.email,
+      to_email: "ese.imhariagbe@gmail.com",
+      message: form.message
+    },
+  "publicKey"
+).then(()=>{
+  setLoading(false);
+  alert('Thank You!, I will get back to you as soon as possible.');
+  setForm({
+    name: '',
+    email: '',
+    message: ''
+  })
+}, (error) =>{
+  setLoading(false);
+
+  console.log(error);
+  alert('Something went wrong.')
+})
   }
 
   return (
