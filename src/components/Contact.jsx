@@ -30,7 +30,7 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      "serviceId", "TemplateId", 
+      "service_ecp7hk2", "template_jxxv4xp", 
     {
       from_name: form.name,
       to_name: "Ese",
@@ -38,7 +38,7 @@ const Contact = () => {
       to_email: "ese.imhariagbe@gmail.com",
       message: form.message
     },
-  "publicKey"
+  "VofYGRuMgWZCSXxcQ"
 ).then(()=>{
   setLoading(false);
   alert('Thank You!, I will get back to you as soon as possible.');
