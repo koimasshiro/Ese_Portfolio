@@ -14,15 +14,18 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    ifair,
+    ingleswitch,
+    skillg,
+    innov8,
+    urlshortener,
+    chatapp,
     threejs,
+    wordpress,
+    christiana,
+    jerry,
+    oche,
+    ecommerce,
   } from "../assets";
   
   export const navLinks = [
@@ -31,8 +34,12 @@ import {
       title: "About",
     },
     {
+      id: "experience",
+      title: "Experience",
+    },
+    {
       id: "work",
-      title: "Work",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -46,15 +53,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "MERN Stack Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "WordPress Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Voice Over Artist",
       icon: creator,
     },
   ];
@@ -109,62 +116,63 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "wordpress Developer",
+      icon: wordpress,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Web Developer",
+      company_name: "Innov8 Hub",
+      icon: innov8,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2023 - July 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created and improved the user interface and experience for the Innov8 Hub website, making it user-friendly and visually appealing",
+        "Built responsive and interactive website components, ensuring compatibility across devices.",
+        "Managed server-side tasks, handled databases, and maintained website infrastructure, implementing security measures and performance optimizations.",
+        "Conducted regular audits and optimizations to enhance speed and performance, resolved technical issues, managed staff email accounts, and regularly updated website content.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Web Developer & Web Manager",
+      company_name: "i-FAIR",
+      icon: ifair,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2023 - May 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed user-friendly and attractive interfaces at i-FAIR to enhance user experience.",
+        "Developed and maintained the website's front-end, ensuring responsiveness and ease of use, while managing server operations and integrating back-end systems.",
+        "Ensured database security and efficiency in data storage and retrieval, improving website security and performance for quick load times.",
+        "Performed regular optimizations to maintain smooth operation, promptly fixed technical issues, and kept the website content updated and relevant.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Skill 'G' Nigeria Limited",
+      icon: skillg,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Dec 2023 - April 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Managed staff email systems for secure communication and kept website content up-to-date and engaging for visitors.",
+        "Conducted regular website optimizations to enhance speed and user experience, resolving technical issues promptly.",
+        "Ensured secure and effective database management, implementing measures to optimize security and performance.",
+        "Created and maintained a responsive and visually appealing front-end for the Skill 'G' website, ensuring seamless integration and efficient data handling with the back-end.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full stack Software Engineer Intern",
+      company_name: "IngleSwitch",
+      icon: ingleswitch,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Collaborated with experienced developers and designers on projects using .NET, C#, MVC, jQuery, Angular, and Typescript.",
+        "Developed and debugged application programs, often working independently.",
+        "Ensured production-ready code and proficiently used both front-end and back-end frameworks.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked with web designers to create sleek and innovative UI designs for projects.",
       ],
     },
   ];
@@ -172,38 +180,38 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I highly recommend Eseosa Imhariagbe as a web developer. I had the pleasure of working alongside her on several projects, and she consistently displayed excellent technical skills, collaborative spirit, and problem-solving abilities.",
+      name: "Christiana Ogaba",
+      designation: "Team Lead",
+      company: "First Icon Group",
+      image: christiana,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Eseosa Imhariagbe is one of the most remarkable individuals you'd find out there. A team player, Imhariagbe possesses the technical know-how, work ethic and interpersonal skills needed to be of valuable service in any organization that requires her services.",
+      name: "Oche Anejo",
+      designation: "Head of Creative Media",
+      company: "Innov8 Hub",
+      image: oche,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Eseosa is one stellar talent I will recommend for any team globally. Having supervised her for over a year, I can vouch for her ability to master concepts fast, and follow through on tasks with minimal supervision. Eseosa also has a knack for excellence in delivering every designated responsibility. ",
+      name: "Jerry Uke",
+      designation: "Senior Program Manager",
+      company: "AltSchool Africa",
+      image: jerry,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Scissor URL Shortener and QR Code Generator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based application that simplifies content sharing and tracking. Users can effortlessly convert lengthy URLs into concise, shareable links and generate dynamic QR codes for immediate access.",
       tags: [
         {
-          name: "react",
+          name: "typescript",
           color: "blue-text-gradient",
         },
         {
@@ -215,50 +223,54 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: urlshortener,
+      source_code_link: "https://github.com/koimasshiro/Scissor_URLShortener-Project.git",
     },
     {
-      name: "Job IT",
+      name: "Chat Application",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A chat application that enables users to engage in real-time conversations. Users can send and receive messages instantly. The app features a user-friendly interface, and secure messaging to enhance the overall communication experience.",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "nodejs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: chatapp,
+      source_code_link: "https://github.com/koimasshiro/HowFa_ChatApp.git",
     },
     {
-      name: "Trip Guide",
+      name: "eCommerce Platform",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An online marketplace that empowers businesses to reach a global audience by accepting cryptocurrency payments. Offering a seamless shopping experience, and allowing customers to purchase a wide range of products using their preferred digital currencies.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "mongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
+        {
+          name: "web3js",
+          color: "blue-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ecommerce,
+      source_code_link: "https://github.com/koimasshiro/combat-inventory-eCommerce.git",
     },
   ];
   

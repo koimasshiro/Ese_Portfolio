@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import navlogo from "./navlogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,18 +20,24 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import wordpress from './tech/wordpress.png'
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ingleswitch from "./company/ingleswitch.png";
+import innov8 from "./company/innov8.png";
+import ifair from "./company/ifair.png";
+import skillg from "./company/skillg.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import urlshortener from "./urlshortener.png";
+import chatapp from "./chatapp.png";
+import ecommerce from "./ecommerce.png";
+
+
+import christiana from './christiana.png';
+import jerry from './jerry.png';
+import oche from './oche.png';
 
 export {
-  logo,
+  navlogo,
   backend,
   creator,
   mobile,
@@ -52,11 +58,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  ifair,
+  ingleswitch,
+  innov8,
+  skillg,
+  urlshortener,
+  ecommerce,
+  chatapp,
+  wordpress,
+  christiana,
+  jerry,
+  oche,
 };

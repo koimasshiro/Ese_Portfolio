@@ -36,8 +36,15 @@ const About = () => {
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
     A cool software engineer with a 
     deep passion for creating efficient, scalable, and 
-    innovative solutions to complex problems.
+    innovative solutions to complex problems. My passions include debugging, optimizing, and creating programs that make people's lives easier.
+    When I'm not busy crunching code, you can usually find me binge watching movies and series, or playing trivia games whilst reading a novel.
+    I'm a big believer in the power of artificial intelligence and solving problems, and I'm constantly learning new things to keep up with the latest tech trends.
+     So, if you ever need a software engineer who's both cool and hilarious (if I do say so myself), look no further than yours truly.
     </motion.p>
+    <motion.div variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+    <a href="/Immaculate Eseosa Imhariagbe.pdf" download className='bg-tertiary py-3 px-8 outline-none 
+          w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>Download CV</a>
+    </motion.div>
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service, index)=>(
         <ServiceCard key={service.title} index={index} {...service}/>
